@@ -21,7 +21,7 @@ nav {
     width: 100vw;
     position: fixed;
     box-sizing: border-box;
-    z-index: 20;
+    z-index: 200;
 }
 
 .blue {
@@ -560,4 +560,68 @@ nav {
     position: relative;
     top: -8%;
     left: 37%;
+}
+
+
+/*Review Section*/
+
+.review {
+    background-image: url("img/travel\ equ.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cmt-main {
+    position: relative;
+    top: 30%;
+    left: 0;
+}
+
+.comment {
+    width: 30rem;
+    height: 20rem;
+    background-color: white;
+    box-shadow: -2.3px -2.3px 2.2px rgba(0, 0, 0, 0.02), 1.2px 1.2px 5.3px rgba(0, 0, 0, 0.028), 10px 10px 10px rgba(0, 0, 0, 0.035), 24.8px 24.8px 17.9px rgba(0, 0, 0, 0.042), 48.6px 48.6px 33.4px rgba(0, 0, 0, 0.05), 100px 100px 80px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cmt-img {
+    width: 5rem;
+    height: 5rem;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.cmt-h1 {
+    padding: 30px;
+}
+
+.cmt-p {
+    margin: 30px;
+    text-align: center;
+}
+
+.cmt-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#cmt-btn-btn {
+    width: 2rem;
+    height: 2rem;
+    background-color: #0013bd;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid #0013bd;
+    margin: 0 20px;
 }
