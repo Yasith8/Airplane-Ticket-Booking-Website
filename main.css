@@ -584,6 +584,7 @@ nav {
 }
 
 .comment {
+    border-radius: 20px;
     width: 30rem;
     height: 20rem;
     background-color: white;
@@ -606,6 +607,10 @@ nav {
     padding: 30px;
 }
 
+.cmt-topic {
+    text-align: center;
+}
+
 .cmt-p {
     margin: 30px;
     text-align: center;
@@ -617,11 +622,12 @@ nav {
 }
 
 #cmt-btn-btn {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     background-color: #0013bd;
     color: white;
     font-weight: bolder;
     border: 2px solid #0013bd;
     margin: 0 20px;
+    border-radius: 50px;
 }
